@@ -1,0 +1,16 @@
+1° site: Cronômetro Online 
+
+function clear() {
+	unstart();
+	jQuery('#difference').text(format_seconds(0));
+}
+
+ele chama outra função para parar o start da contagem, em seguida zerando o contador para 0.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+2° site: Cookie Cliker
+
+Game.ClickCookie();
+
+Acessa o método "ClickCookie" da classe "Game", gerando assim um click e somando +1 cookie.
