@@ -1,0 +1,3 @@
+IDE: Visual Studio Code
+
+Já configurei, instalei algumas extensões como o CodeRunner para que rode o JavaScript, LiveServer para criar um servidor na hr sem precisar estar abrindo página no navegador pra testar o código, as cores estão padrões do VisualCode, e também instalei uma extensão de identação para facilitar o trabalho caso eu esteja tendo algum problema de identação, só usar o atalho no teclado que identa. 
