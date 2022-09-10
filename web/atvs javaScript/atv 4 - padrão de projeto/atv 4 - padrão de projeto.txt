@@ -1,0 +1,12 @@
+Abstract Factory: Fornece uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. Também é conhecido como Kit.
+
+Este padrão deve ser aplicado quando se deseja isolar a aplicação da implementação da classe concreta, que poderia ser um componente e ou framework específico no qual a aplicação conheceria apenas uma interface e a implementação concreta seria conhecida apenas em tempo de execução ou compilação.
+
+
+VANTAGENS:
+- Ele torna fácil a troca de famílias de produtos.
+- Ela promove a harmonia entre produtos.
+
+DESVANTAGENS:
+- É difícil de suportar novos tipos de produtos.
+- Ele isola as classes concretas.
