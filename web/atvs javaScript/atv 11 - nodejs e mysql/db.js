@@ -4,8 +4,7 @@ const sql = new Sequelize('db', 'user', '123', {
     host: 'localhost'
 });
 
-
-
+module.exports = sql;
 var conection = sql.authenticate();
 
 conection.then(function() {
@@ -16,4 +15,3 @@ conection.catch(function(err) {
     console.log('Banco de Dados não foi conectado com sucesso!')
 });
 
-module.exports = sql;
